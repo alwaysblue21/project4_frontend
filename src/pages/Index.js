@@ -20,7 +20,9 @@ function Index (props){
             <button>Create a new reservation</button>
         </Form>
     </div>
+    <div className="reserv-container">
     {reservs.map((reserv) => <Post key={reserv.id} post={reserv}/>)}
+    </div>
     </>
 
 }
