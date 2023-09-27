@@ -3,7 +3,7 @@
 - **Project Name:** Restaurant reservation app
 - **Project By:** Je Min Yun
 - [**LINK TO GITHUB**](https://github.com/alwaysblue21/project4_frontend)
-- [**LINK TO DEPLOYED WEBSITE**]
+- [**LINK TO DEPLOYED WEBSITE**](https://endearing-sunflower-e223ae.netlify.app/)
 - **List of Technologies used:** React, React Router Dom
 
 
