@@ -44,7 +44,7 @@ export const updateAction = async({request, params}) => {
     }
 
     // make a request to update a reserv
-    await fetch(url + id, {
+    await fetch(url + id + "/", {
         method: "put",
         headers: {
             "Content-Type": "application/json"
