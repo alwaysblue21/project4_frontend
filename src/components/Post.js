@@ -5,7 +5,7 @@ function Post ({post}){
 
     const div = {
         textAlign: 'center',
-        border: `2px solid orange`,
+        border: `2px solid white`,
         margin: "10px auto",
         width: "60%"
     }

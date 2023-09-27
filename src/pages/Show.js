@@ -18,7 +18,7 @@ function Show(props) {
         <h2>{post.phone_number}</h2>
         <h2>{post.number_of_customers}</h2>
       <div style={{ textAlign: "center" }}>
-        <h2>Update Reservation</h2>
+        <h2 className="red">Update Reservation</h2>
         <Form method="post" action={`/update/${post.id}`}>
           <input
             type="text"

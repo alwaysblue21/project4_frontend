@@ -10,7 +10,7 @@ function Index (props){
     // map over the todos and create a Post component for each reserv
     return <>
     <div style={{textAlign: "center"}}>
-        <h2>Create a reservation</h2>
+        <h2 className="red">Create a reservation</h2>
         <Form method="post" action="/create">
             <input type="text" name="date" placeholder="Date"/>
             <input type="text" name="name" placeholder="Name"/>
@@ -20,7 +20,7 @@ function Index (props){
             <button>Create a new reservation</button>
         </Form>
     </div>
-    <div className="reserv-container">
+    <div>
     {reservs.map((reserv) => <Post key={reserv.id} post={reserv}/>)}
     </div>
     </>
